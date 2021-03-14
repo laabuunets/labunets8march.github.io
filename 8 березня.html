@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>8 березня</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@385&display=swap');
+	.wrap{
+			width: 160px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	p{
+		color:#DB7093;
+		font-family: 'Oswald', sans-serif;
+    	text-align: center;
+    	margin-top:5px;
+    	font-size: 70px;
+	}
+	p::before{
+    content: 'З \2467';
+    animation-name: anim;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+    p::after{
+    	text-align: center;
+    	content: " березня";
+    	animation-name: anime;
+    	animation-duration: 6s;
+		animation-iteration-count: infinite;
+    }
+    @keyframes anim{
+          0%{
+          	content: 'З \0038';
+          }
+          50%{
+          	content: 'Я \221E';
+          }
+          100%{
+          	content: 'З \0038';
+          }
+    }
+    @keyframes anime{
+    	0%{
+          	content: ' березня!';
+          }
+          50%{
+          	content: " тебе люблю, мамо!"
+          }
+          100%{
+          	content: ' березня!';
+          }
+    }
+    img{
+    	width:120px;
+    	height: 120px;
+    	animation: beat 1s infinite;
+    }
+    @keyframes beat {
+    0%{
+    transform:scale(1);}
+    50%{transform:scale(0.8);}}
+    .vid{
+    	margin-left: 950px;
+    }
+    .gl{
+			display: flex;
+			justify-content: space-around;
+		}
+	</style>
+	<body>
+		<p></p>
+		<div class="gl">
+		<div class="wrap"><img src="https://emojio.ru/images/apple-b/2764-fe0f.png" style="margin-left: 250px;"></img><div class="vid">
+			<video style="width: 600; height: 397px;" src="8 березня.mp4" controls poster="https://pmg.ua/uploads/2020-02/14/5e4697568e820-b48f2c03bbd159814922841bfb3fe7d7_xljpg.jpg"><track kind="subtitles" src="titles.vtt" srclang="uk"></video></div>
+		<img src="https://emojio.ru/images/apple-b/2764-fe0f.png" style="margin-left: 230px;"></img></div>
+		<div class="wrap"><img src="https://emojio.ru/images/apple-b/2764-fe0f.png" style="margin-right: 230px;"></img>
+		<img src="https://emojio.ru/images/apple-b/2764-fe0f.png" style="margin-top: 400px; margin-right: 230px;"></img></div>
+		</div>
+	</body>
+	</html>
